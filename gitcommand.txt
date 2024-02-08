@@ -1,0 +1,6 @@
+Git basic Commands
+
+-> Git status
+-> Git init // Intializing
+-> git add.
+some 
