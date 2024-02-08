@@ -1,6 +1,19 @@
 Git basic Commands
 
--> Git status
--> Git init // Intializing
--> git add.
-some 
+-> Git status // to check the status of file
+-> Git init // Intialize a new repository in local directory
+-> git add filename // add file to staging area
+-> git add. // add all untracked files and changes to staging area
+-> git commit -m "new file added"
+-> git config --global user.email "youremail@gmail.com"
+-> git config --global user.name "your name"
+-> git log
+-> git diff // know exactly what u have changed
+some changes
+-> git ls-files //list all files available in staging area
+-> git rm --cached filename //u want to keep the file in your hard disk but u dont want track this file 
+
+Branch
+-> git branch (branch name) // Create another branch 
+-> git checkout (branch name) // switching to branch
+-> git checkout -b third-branch
