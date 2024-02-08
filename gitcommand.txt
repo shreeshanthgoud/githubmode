@@ -14,6 +14,8 @@ some changes
 -> git rm --cached filename //u want to keep the file in your hard disk but u dont want track this file 
 
 Branch
--> git branch (branch name) // Create another branch 
--> git checkout (branch name) // switching to branch
--> git checkout -b third-branch
+-> git branch second-branch // Create another branch 
+-> git checkout second-branch // switching to branch
+-> git checkout -b third-branch // create and switch to third branch
+-> git remote add origin (url)
+-> git push -u origin master // push changes 
